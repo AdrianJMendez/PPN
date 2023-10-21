@@ -1,0 +1,84 @@
+body{
+    font-family: 'Playpen Sans', cursive;
+    margin: 0;
+    color: rgb(0, 0, 0);
+
+}
+
+header{
+    position: fixed;
+    width: 100%;
+    z-index: 100000;
+}
+
+header img{
+    margin: 10px;
+    height: 50px;
+    width: 50px;
+}
+
+#contenido{
+    background: linear-gradient(to bottom,#564D8C, #8C2786 );
+    width: 100%;
+    height: 100%;
+    display: flex;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+
+.landing{
+    width: auto;
+    margin-top: 50px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+}
+
+
+.fotos{
+    
+    min-height: fit-content;
+    max-height: 200px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    border: 15px solid#73294C;
+    border-radius: 10px;
+    margin: 20px;
+    z-index: 1;
+}
+
+.fotos img{
+    object-fit: contain;
+    height: 200px;
+}
+
+#presentacion{
+    position: relative;
+    bottom: 100px;
+    background-color: #73294C;
+    color: white;
+    border-radius: 30px;
+    padding: 15px;
+}
+
+
+#presentacion p{
+    margin-top: 100px;
+}
+
+#guia{
+    position: relative;
+    bottom: 50px;
+    width: 100%;
+    padding: 15px;
+    height: max-content;
+    color: white;
+    border-radius: 10px;
+    background-color: black;
+}

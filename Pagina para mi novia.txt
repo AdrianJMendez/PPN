@@ -1,0 +1,30 @@
+Objetivos
+-Demostrarle mi amor
+-Dedicarle Frases de canciones
+-Dedicarle poemas
+-Decirle que cosas me gustan de ella
+-Agradecerle por lo feliz que me hace
+-Hacerle cumplidos
+
+Ideas
+-Pagina con secciones para cada objetivo: Al darle clic en un icono se desplegara el mensaje
+
+Contenido de la pagina
+-Landing (Poner fotos de ellas, fotos nuestras, explicar el funcionamiento de la pagina)
+	-Demostrarle mi amor
+-Cosas que me gustan de ella (Luz)
+	Decirle que cosas me gustan de ella
+-Canciones que me recuerdan a ella (musica)
+	Dedicarle Frases de canciones
+-Frases para ella (Estrella)
+	Hacerle cumplidos
+	Agradecerle por lo feliz que me hace
+-Poemas para ella (Corazon)
+	Dedicarle poemas
+
+
+Tecnologias:
+Boostrap
+Js
+Html
+js
