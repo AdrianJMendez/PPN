@@ -24,7 +24,8 @@ function renderizarPag(pagina){
     
    document.getElementById('pag-boton').innerHTML=`
    <div id="Modaldiv">
-   <h1>Presiona el corazon.</h1>
+   <h1> Presiona el corazon. <i class="fa-solid fa-down-long" style="color: #ffffff;"></i></h1>
+
  
             <div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
                 <div class="modal-dialog modal-dialog-centered">
@@ -52,12 +53,7 @@ function renderizarPag(pagina){
               
               <div id="guia" class="borde-arcoiris">
                 <h2>¿Como funciona?</h2>
-                <p>Cada ❤️ en la parte superior de la página te llevará a una sección especial.</p>
-                <p>1❤️. El primer corazón te llevará a la página principal.</p>
-                <p>2❤️. El segundo corazón te mostrará las cosas que me gustan de ti.</p>
-                <p>3❤️. El tercer corazón te mostrará las canciones que me recuerdan a ti.</p>
-                <p>4❤️. El cuarto corazón te mostrará poemas que he querido dedicarte.</p>
-                <p>5❤️. El quinto corazón te mostrará, en palabras, todo eso que siento por ti.</p>
+                <h4>Cada vez que presiones el ❤️, saldra un mensaje aleatorio, puede ser algo que me guste de ti, algo que me hagas sentir, algo que me recuerde a ti, algo que quiera que sepas... aunque las palabras no son suficientes para expresar todo mi amor por ti, debes saber que te amo mas que a nada y mi amor por ti no tiene limites<3</h4>
 
 
             </div>
@@ -142,3 +138,5 @@ function cambiarMsj4(){
 
     
 };
+
+
