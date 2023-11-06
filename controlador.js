@@ -140,3 +140,80 @@ function cambiarMsj4(){
 };
 
 
+function cambiarMsj3(){
+  const mensajes = [
+    "Te amo porque tienes las raíces profundas de la pena, porque eres buena, porque eres mía. - Pablo Neruda",
+    "Ríe, porque tu risa será para mis oídos como una campana fresca, tan cerca de mi alma. - Pablo Neruda",
+    "Podrá nublarse el sol eternamente; Podrá secarse en un instante el mar; Podrá romperse el eje de la tierra como un débil cristal. ¡Todo sucederá! - Gustavo Adolfo Bécquer",
+    "A veces tengo ganas de ser cursi para decir: ¡La amo a usted con locura! A veces tengo ganas de ser tonto para gritar: ¡La quiero tanto! - Nicolás Guillén",
+    "Te quiero porque eres la luz de mi camino, porque eres la flor de mi jardín, porque eres el sueño de mi vida y la razón de mi vivir. - Luis Cernuda",
+    "Tu voz es como una música que me llena de paz y emoción. Tu voz es como una caricia que me acaricia el alma y el corazón. - Antonio Machado",
+    "Amor mío, eres tú, el milagro más grande que me ha dado la vida. Eres tú, el tesoro más precioso que guardo en mi interior. Eres tú, el poema más hermoso que escribo con amor. - Alfonsina Storni",
+    "Eres un regalo que me hizo el destino y me hizo feliz. Eres un milagro que me dio la suerte y me hizo sentir. Eres un encanto que me dio la naturaleza y me hizo vivir. - Mario Benedetti",
+    "Siempre te llevo en mi pensamiento y en mi corazón. Siempre te siento en mi aliento y en mi canción. Siempre te quiero con ternura y con pasión. Siempre te espero con locura y con ilusión. - Nicolás Guillén",
+    "Solo tú eres el sueño que me hace despertar. Solo tú eres el fuego que me hace quemar. Solo tú eres la luna que me hace iluminar. Solo tú eres la única que me hace amar. - José Ángel Buesa",
+    "Te necesito como el aire que respiro cada día. Te necesito como el agua que me sacia la sed. Te necesito como el sol que me calienta el alma. Te necesito como la estrella que me guía en la noche. - Gabriela Mistral",
+    "Eres mi todo, mi universo, mi razón de existir. Eres mi todo, mi tesoro, mi motivo de vivir. Eres mi todo, mi delirio, mi pasión y mi placer. Eres mi todo, mi poesía, mi canción y mi mujer. - Rubén Darío",
+    "Contigo, sí, contigo quiero vivir y morir. Contigo, sí, contigo quiero reír y sufrir. Contigo, sí, contigo quiero soñar y crear. Contigo, sí, contigo quiero cantar y callar. - Jorge Guillén"
+  ];
+
+
+  const indiceAleatorio = Math.floor(Math.random() * mensajes.length);
+
+// Obtiene el mensaje aleatorio
+  const mensajeAleatorio = mensajes[indiceAleatorio];
+
+  document.getElementById('tituloModal').innerHTML=`
+  <h1 class="modal-title fs-5" id="exampleModalToggleLabel">Te amo mucho mucho <3</h1>
+  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+  `;
+
+
+  document.getElementById('cuerpo-modal').innerHTML=`
+  <h3>${mensajeAleatorio}</h3>
+  `;
+
+  
+};
+
+function cambiarMsj2(){
+  const mensajes = [
+    "Eres la única persona que no puede perder, nadie me ama como tú - Like You Do",
+  "Eres todo lo que siempre querré, Eres todo lo que siempre necesitaré, Eres todo lo que soñé tener - Heaven Is You",
+  "¿Te he dicho últimamente que te quiero? ¿Te he dicho que no hay nadie más por encima de ti? - Have I Told You Lately",
+  "Llena mi corazón de alegría, me quita toda mi tristeza, alivia mis problemas, eso es lo que haces - Have I Told You Lately",
+  "Me siento triste cuando estás triste, Me siento feliz cuando estás contenta - Can't Smile Without You",
+  "Te miro y solo veo el cielo - Because Of You",
+  "Es por ti, es por ti, todo es por ti, todo lo que hago, el paraíso es un lugar en la Tierra contigo - Videogames",
+  "Te prometo que es para siempre - Wherever You Are",
+  "Porque tú eres la razón por la que creo en el destino, tú eres mi paraíso, y haré cualquier cosa para ser tu amor - Infinity",
+  "Tú eres la luna que brilla en mi corazón, eres mi día mi noche, mi mundo, eres mi vida - You Are My Life",
+  "Es que no hay nadie como tú que me haga sentir así en un arrullo de estrellas - Arrullo de Estrellas",
+  "Cuando estés sola te buscaré, cuando te sientas mal también estaré allí - Apocalypse",
+  "Cómo no te voy a amar, si tú eres mi otra mitad, con quien siempre quiero estar - No Te Cambiaría",
+  "Tengo suerte de que me hayas mantenido cerca, eres la estrella que busco cada noche - Compass",
+  "Me muero por mostrarte todo lo que soy y es que hasta en mi inconsciente puedo darte amor - Soñar Contigo",
+  "Quizá no pienses que eres una supermodelo, pero tú pareces una para mí, eres perfecta para mí - Perfectly Perfect",
+  "Eres lo mejor que podría pasarle a mi vida - Catorce",
+  "Bueno, no puedes tener lo que quieras, pero puedes tenerme, así que salgamos al mar, porque eres mi medicina cuando estás cerca de mí - On Melancholy Hill"
+];
+    
+
+
+  const indiceAleatorio = Math.floor(Math.random() * mensajes.length);
+
+// Obtiene el mensaje aleatorio
+  const mensajeAleatorio = mensajes[indiceAleatorio];
+
+  document.getElementById('tituloModal').innerHTML=`
+  <h1 class="modal-title fs-5" id="exampleModalToggleLabel">Eres mi fortuna <3</h1>
+  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+  `;
+
+
+  document.getElementById('cuerpo-modal').innerHTML=`
+  <h3>${mensajeAleatorio}</h3>
+  `;
+
+  
+};
