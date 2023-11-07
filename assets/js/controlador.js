@@ -43,7 +43,7 @@ function renderizarPag(pagina){
 
               <button class="botonmodal" data-bs-target="#exampleModalToggle" data-bs-toggle="modal" onclick="cambiarMsj${pagina}()">
               
-                <img src="assets/5.png" class="img-fluid" alt="">
+                <img src="assets/img/5.png" class="img-fluid" alt="">
                 
 
               </button>
@@ -144,7 +144,7 @@ function cambiarMsj3(){
   const mensajes = [
     "Te amo porque tienes las raíces profundas de la pena, porque eres buena, porque eres mía. - Pablo Neruda",
     "Ríe, porque tu risa será para mis oídos como una campana fresca, tan cerca de mi alma. - Pablo Neruda",
-    "Podrá nublarse el sol eternamente; Podrá secarse en un instante el mar; Podrá romperse el eje de la tierra como un débil cristal. ¡Todo sucederá! - Gustavo Adolfo Bécquer",
+    "Podrá nublarse el sol eternamente; Podrá secarse en un instante el mar; Podrá romperse el eje de la tierra como un débil cristal. ¡Todo sucederá Podrá la muerte cubrirme con su fúnebre crespón; Pero jamás en mí podrá apagarse la llama de tu amor. - Gustavo Adolfo Bécquer",
     "A veces tengo ganas de ser cursi para decir: ¡La amo a usted con locura! A veces tengo ganas de ser tonto para gritar: ¡La quiero tanto! - Nicolás Guillén",
     "Te quiero porque eres la luz de mi camino, porque eres la flor de mi jardín, porque eres el sueño de mi vida y la razón de mi vivir. - Luis Cernuda",
     "Tu voz es como una música que me llena de paz y emoción. Tu voz es como una caricia que me acaricia el alma y el corazón. - Antonio Machado",
